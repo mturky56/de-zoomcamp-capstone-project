@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: stg
+    database: citibikes_db
+    schema: citibikies_data
+
+    tables:
+      - name: rides_data
